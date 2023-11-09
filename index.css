@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f0;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    padding: 25px;
+    width: 350px;
+    background: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 22px;
+}
+
+.container:hover {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.container .userInput {
+    all: unset;
+    height: 45px;
+    width: 100%;
+    border-bottom: 3px solid #00f;
+}
+
+.userInput:hover {
+    border: 3px solid #0f0;
+    border-radius: 22px;
+}
+
+.userInput::placeholder {
+    text-align: center;
+    color: #00f;
+    font-style: italic;
+}
+
+.container .search-btn {
+    all: unset;
+    height: 40px;
+    width: 100%;
+    background: #00f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #0f0;
+    outline: 2px solid #0f0;
+    outline-offset: 2px;
+}
+
+.container .info-box .imgBox {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.container .info-box .imgBox img {
+    height: 150px;
+    width: 150px;
+}
+
+.container .info-box .countryName {
+    text-align: center;
+    margin-top: -17px;
+    text-transform: uppercase;
+}
+
+.container .info-box .moreDetails {
+    margin-top: 17px;
+}
+
+.container .info-box .moreDetails p {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.container .info-box .moreDetails span {
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.container .info-box .invalid-name-message {
+    text-align: center;
+    margin-top: 10px;
+    white-space: nowrap;
+    font-size: 15px;
+}
