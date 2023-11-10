@@ -84,6 +84,8 @@ body {
     text-align: center;
     margin-top: -17px;
     text-transform: uppercase;
+    color: #00f;
+    font-style: italic;
 }
 
 .container .info-box .moreDetails {
@@ -94,6 +96,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin-top: 6px;
+    font-style: italic;
 }
 
 .container .info-box .moreDetails span {
